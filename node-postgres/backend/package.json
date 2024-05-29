@@ -1,0 +1,16 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "My attempt at adding server capacity for the app",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rushd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
