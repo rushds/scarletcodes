@@ -5,8 +5,10 @@ import Success from "./pages/success.jsx";
 import Login from "./pages/login.jsx";
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
+import { secret } from '@aws-amplify/backend';
 
-const supabase = createClient("https://lyzekbquqgeumibpayyj.supabase.co", import.meta.env.VITE_SUPABASE_ANON_KEY);
+
+const supabase = createClient("https://lyzekbquqgeumibpayyj.supabase.co", secret(VITE_SUPABASE_ANON_KEY));
 
 export {supabase};
 
